@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace links_app
 {
@@ -16,7 +13,7 @@ namespace links_app
             {"/blog", $"{HomePageRoot}/blog"},
             {"/proj/edux", $"{GitHubRoot}/edux/tree/stirtrek2017"},
 
-            {"/st2017", $"{HomePageRoot}/single-post/2017/presentations/stirtrek-resources"},
+            {"/st2017", $"{HomePageRoot}/single-post/presentations/2017/stirtrek-resources"},
             {"/pres/2017/stirtrek/slides", "https://docs.google.com/presentation/d/1T0iYRul6NdwM6GpE-jDuQBD13kFspxiXXXlwDQKOwpM/edit?usp=sharing"},
             {"/pres/2017/stirtrek/edux", $"{GitHubRoot}/edux/tree/stirtrek2017"}
         };
