@@ -4,7 +4,7 @@ namespace links_app
 {
     public static class RouteMaps
     {
-        internal const string HomePageRoot = "https://michaelmeadows8.wixsite.com/michaelmeadows";
+        internal const string HomePageRoot = "https://www.michaelmeadows.com/";
         private const string GitHubRoot = "https://github.com/WalkingDisaster/";
 
         public static IDictionary<string, string> Routes = new Dictionary<string, string>
