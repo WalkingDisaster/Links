@@ -15,7 +15,8 @@ namespace links_app
 
             {"/st2017", $"{HomePageRoot}/single-post/presentations/2017/stirtrek-resources"},
             {"/pres/2017/stirtrek/slides", "https://docs.google.com/presentation/d/1T0iYRul6NdwM6GpE-jDuQBD13kFspxiXXXlwDQKOwpM/edit?usp=sharing"},
-            {"/pres/2017/stirtrek/edux", $"{GitHubRoot}/edux/tree/stirtrek2017"}
+            {"/pres/2017/stirtrek/edux", $"{GitHubRoot}/edux/tree/stirtrek2017"},
+            {"/+", "https://plus.google.com/u/0/+MichaelMeadowsAndYourMom" }
         };
     }
 }
