@@ -23,7 +23,7 @@ namespace links_app
             {"/pres/2018/codemash/socket/code", "https://github.com/WalkingDisaster/edux/tree/CodeMash2018-edux"},
             {"/cm2018-socket", "https://www.michaelmeadows.com/single-post/2018/01/12/CodeMash-2018-SocketIO-Talk"},
             {"/sftodo", "https://www.michaelmeadows.com/service-fabric-to-do"},
-            {"/asdf", "https://www.reddit.com/"},
+            {"/sessions", "https://sessionize.com/walkingdisaster"},
         };
     }
 }
