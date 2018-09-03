@@ -21,7 +21,7 @@ namespace links_app
             {"/cm2017-RAdAC", $"{HomePageRoot}single-post/2018/01/11/CodeMash-2018-RAdAC-Talk"},
             {"/cm2018-RAdAC", $"{HomePageRoot}single-post/2018/01/11/CodeMash-2018-RAdAC-Talk"},
             {"/pres/2018/codemash/socket/slides", $"{GoogleDrive}presentation/d/1EDPaVR0mAWGN1mU91vH3pRY5Xrz9MxYzZ0x48eu_LdE/edit?usp=sharing"},
-            {"/pres/2018/codemash/socket/code", $"{GitHubRoot}WalkingDisaster/edux/tree/CodeMash2018-edux"},
+            {"/pres/2018/codemash/socket/code", $"{GitHubRoot}edux/tree/CodeMash2018-edux"},
             {"/cm2018-socket", $"{HomePageRoot}single-post/2018/01/12/CodeMash-2018-SocketIO-Talk"},
             {"/sftodo", $"{HomePageRoot}service-fabric-to-do"},
             {"/sessions", "https://sessionize.com/walkingdisaster"},
