@@ -17,7 +17,7 @@ namespace links_app
             {"/st2017", $"{HomePageRoot}single-post/presentations/2017/stirtrek-resources"},
             {"/pres/2017/stirtrek/slides", $"{GoogleDrive}presentation/d/1T0iYRul6NdwM6GpE-jDuQBD13kFspxiXXXlwDQKOwpM/edit?usp=sharing"},
             {"/pres/2017/stirtrek/edux", $"{GitHubRoot}edux/tree/stirtrek2017"},
-            {"/+", "https://plus.google.com/+MichaelMeadows3f"},
+            {"/plus", "https://plus.google.com/+MichaelMeadows3f"},
             {"/cm2017-RAdAC", $"{HomePageRoot}single-post/2018/01/11/CodeMash-2018-RAdAC-Talk"},
             {"/cm2018-RAdAC", $"{HomePageRoot}single-post/2018/01/11/CodeMash-2018-RAdAC-Talk"},
             {"/pres/2018/codemash/socket/slides", $"{GoogleDrive}presentation/d/1EDPaVR0mAWGN1mU91vH3pRY5Xrz9MxYzZ0x48eu_LdE/edit?usp=sharing"},
