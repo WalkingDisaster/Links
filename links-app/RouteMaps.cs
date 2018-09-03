@@ -24,6 +24,7 @@ namespace links_app
             {"/cm2018-socket", "https://www.michaelmeadows.com/single-post/2018/01/12/CodeMash-2018-SocketIO-Talk"},
             {"/sftodo", "https://www.michaelmeadows.com/service-fabric-to-do"},
             {"/sessions", "https://sessionize.com/walkingdisaster"},
+            {"/blog", "https://www.michaelmeadows.com/blog"},
         };
     }
 }
