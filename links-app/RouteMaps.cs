@@ -29,6 +29,7 @@ namespace links_app
             {"/cm2018-socket", $"{HomePageRoot}single-post/2018/01/12/CodeMash-2018-SocketIO-Talk"},
             {"/troll", "http://glench.com/hash/#diy.800.Max%5CnMax%5CnMax%5CnGreschl%5CnGreschl%5CnGreschl%5Cnis%5Cna%5CnGinger%5Cn%5CnGinger%5Cn%5CnGinger%5Cn%5CnGinger%5Cn"},
             {"/insight", $"https://insight.com"},
+            {"/483", $"https://photos.app.goo.gl/vbX4Yijhov1EuVok8"},
         };
     }
 }
