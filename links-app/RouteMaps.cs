@@ -30,6 +30,8 @@ namespace links_app
             {"/troll", "http://glench.com/hash/#diy.800.Max%5CnMax%5CnMax%5CnGreschl%5CnGreschl%5CnGreschl%5Cnis%5Cna%5CnGinger%5Cn%5CnGinger%5Cn%5CnGinger%5Cn%5CnGinger%5Cn"},
             {"/insight", $"https://insight.com"},
             {"/483", $"https://photos.app.goo.gl/vbX4Yijhov1EuVok8"},
+            
+            {"/pres/2019/mtc/micro-arch", "https://docs.microsoft.com/en-us/azure/architecture/microservices/"},
         };
     }
 }
