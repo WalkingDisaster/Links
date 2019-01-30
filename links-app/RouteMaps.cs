@@ -31,6 +31,7 @@ namespace links_app
             {"/insight", $"https://insight.com"},
             {"/483", $"https://photos.app.goo.gl/vbX4Yijhov1EuVok8"},
             
+            {"/mtcdet1", "https://www.michaelmeadows.com/single-post/2019/01/30/MTC-Detroit-2019"},
             {"/pres/2019/mtc/micro-arch", "https://docs.microsoft.com/en-us/azure/architecture/microservices/"},
         };
     }
