@@ -33,6 +33,8 @@ namespace links_app
             
             {"/mtcdet1", "https://www.michaelmeadows.com/single-post/2019/01/30/MTC-Detroit-2019"},
             {"/pres/2019/mtc/micro-arch", "https://docs.microsoft.com/en-us/azure/architecture/microservices/"},
+            
+            {"/aha", "http://www2.heart.org/site/TR?fr_id=3995&pg=personal&px=8328769&s_hasSecureSession=true"},
         };
     }
 }
