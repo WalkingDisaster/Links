@@ -35,6 +35,7 @@ namespace links_app
             {"/pres/2019/mtc/micro-arch", "https://docs.microsoft.com/en-us/azure/architecture/microservices/"},
             
             {"/aha", "http://www2.heart.org/site/TR?fr_id=3995&pg=personal&px=8328769&s_hasSecureSession=true"},
+            {"/pres/2019/coazure/cosmos", "https://www.michaelmeadows.com/single-post/2019/COAzure/CosmosDB"},
         };
     }
 }
