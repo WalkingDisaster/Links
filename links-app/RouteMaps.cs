@@ -36,6 +36,9 @@ namespace links_app
             
             {"/aha", "http://www2.heart.org/site/TR?fr_id=3995&pg=personal&px=8328769&s_hasSecureSession=true"},
             {"/pres/2019/coazure/cosmos", "https://www.michaelmeadows.com/single-post/2019/COAzure/CosmosDB"},
+            
+            {"/st19", "https://www.michaelmeadows.com/single-post/2019/stir-trek"},
+            {"/pres/2019/stir-trek/slides", "https://docs.google.com/presentation/d/1hxydNML8S0PSCzkvtz8V0Kgvsu2MKZ1qDtKaSPQKpRM/edit?usp=sharing"},
         };
     }
 }
