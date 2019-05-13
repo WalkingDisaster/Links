@@ -39,6 +39,7 @@ namespace links_app
             
             {"/st19", $"{HomePageRoot}single-post/2019/stir-trek"},
             {"/pres/2019/stir-trek/slides", $"{GoogleDrive}presentation/d/1hxydNML8S0PSCzkvtz8V0Kgvsu2MKZ1qDtKaSPQKpRM/edit?usp=sharing"},
+            {"/go/build19", "https://docs.google.com/presentation/d/1hBgb_e7YjmNO9dgD1efeGfhFUjX2jhq-tmkjqyipJCk/edit?usp=sharing"},
         };
     }
 }
