@@ -28,6 +28,10 @@ namespace links_app
                 app.UseDeveloperExceptionPage();
             }
 
+            app.Map("a_l_i_v_e", builder => builder.Run(async h =>
+            {
+                await h.Response.WriteAsync("Hello World");
+            });
             foreach (var route in RouteMaps.Routes)
             {
                 app.Map(route.Key, builder => builder.Run(async h =>
@@ -36,10 +40,6 @@ namespace links_app
                     await h.Response.WriteAsync("");
                 }));
             }
-            app.Map("a_l_i_v_e", builder => builder.Run(async h =>
-            {
-                await h.Response.WriteAsync("Hello World");
-            });
             app.Run(async (context) =>
             {
                 context.Response.Redirect(RouteMaps.HomePageRoot);
