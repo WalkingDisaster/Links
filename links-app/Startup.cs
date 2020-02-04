@@ -28,7 +28,7 @@ namespace links_app
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Map("a_l_i_v_e", builder => builder.Run(async h =>
+            app.Map("/a_l_i_v_e", builder => builder.Run(async h =>
             {
                 await h.Response.WriteAsync("Hello World");
             });
