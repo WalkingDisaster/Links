@@ -1,14 +1,18 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
 
 namespace links_app
 {
     public static class RouteMaps
     {
-        internal const string HomePageRoot = "https://www.michaelmeadows.com/";
+        private const string HomePageRoot = "https://www.michaelmeadows.com/";
         private const string GitHubRoot = "https://github.com/WalkingDisaster/";
         private const string GoogleDrive = "https://docs.google.com/";
 
-        public static IDictionary<string, string> Routes = new Dictionary<string, string>
+        private static IDictionary<string, string> Routes = new Dictionary<string, string>
         {
             {"/github", $"{GitHubRoot}"},
             {"/linkedin", "https://www.linkedin.com/in/michaelnmeadows/"},
@@ -47,5 +51,25 @@ namespace links_app
             {"/venmo", "https://venmo.com/code?user_id=2794062025326592415"},
             {"/files/40c3a", "https://meadowsfiles.blob.core.windows.net/40c3a3636/77b1de01-b0ee-49c1-ab2f-dde957f76d10.pdf?sp=r&st=2020-02-22T20:07:21Z&se=2020-02-24T20:07:21Z&spr=https&sv=2019-02-02&sr=b&sig=swkbm9NQ%2F09%2BXsAzvEyUF7BPkzR2PVvz%2BKInz%2F0qu%2FA%3D"},
         };
+
+        public static void UseMappedRoutes(this IApplicationBuilder app)
+        {
+            app.UseEndpoints(endpoints =>
+            {
+                foreach (var route in Routes)
+                {
+                    endpoints.MapGet(route.Key, context => DefineRoute(context, route.Value));
+                }
+                endpoints.MapFallback(context => DefineRoute(context, HomePageRoot));
+            });
+        }
+
+        private static async Task DefineRoute(HttpContext context, string url)
+        {
+            context.Response.Redirect(url);
+            context.Response.Headers.Add("Cache-Control", "no-cache, no-store");
+            context.Response.Headers.Add("Expires", "-1");
+            await context.Response.WriteAsync("");
+        }
     }
 }

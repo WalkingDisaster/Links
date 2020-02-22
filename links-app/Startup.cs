@@ -39,23 +39,7 @@ namespace links_app
 
             app.UseRouting();
 
-            app.UseEndpoints(endpoints =>
-            {
-                foreach (var route in RouteMaps.Routes)
-                {
-                    endpoints.MapGet(route.Key, async context =>
-                    {
-                        context.Response.Redirect(route.Value);
-                        await context.Response.WriteAsync("");
-                    });
-                }
-
-                endpoints.MapFallback(async context =>
-                {
-                    context.Response.Redirect(RouteMaps.HomePageRoot);
-                    await context.Response.WriteAsync("");
-                });
-            });
+            app.UseMappedRoutes();
         }
     }
 }
