@@ -5,45 +5,56 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
 namespace links_app
 {
     public class Startup
     {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
         // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddConsole();
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Map("/a_l_i_v_e", builder => builder.Run(async h =>
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            app.UseEndpoints(endpoints =>
             {
-                await h.Response.WriteAsync("Hello World");
-            });
-            foreach (var route in RouteMaps.Routes)
-            {
-                app.Map(route.Key, builder => builder.Run(async h =>
+                foreach (var route in RouteMaps.Routes)
                 {
-                    h.Response.Redirect(route.Value);
-                    await h.Response.WriteAsync("");
-                }));
-            }
-            app.Run(async (context) =>
-            {
-                context.Response.Redirect(RouteMaps.HomePageRoot);
-                await context.Response.WriteAsync("");
+                    endpoints.MapGet(route.Key, async context =>
+                    {
+                        context.Response.Redirect(route.Value);
+                        await context.Response.WriteAsync("");
+                    });
+                }
+
+                endpoints.MapFallback(async context =>
+                {
+                    context.Response.Redirect(RouteMaps.HomePageRoot);
+                    await context.Response.WriteAsync("");
+                });
             });
         }
     }
