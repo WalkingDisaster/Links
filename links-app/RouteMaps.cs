@@ -45,6 +45,7 @@ namespace links_app
             {"/go/here", "https://drive.google.com/open?id=1WS3LgWJVW5jl87MfEwGo8p37WwIX_IA1"},
             {"/go/a8d20", "https://drive.google.com/open?id=1TukAWKZt8VK3qLCO1z50KNIPcmB5_MCy"},
             {"/venmo", "https://venmo.com/code?user_id=2794062025326592415"},
+            {"/files/40c3a", "https://meadowsfiles.blob.core.windows.net/40c3a3636/77b1de01-b0ee-49c1-ab2f-dde957f76d10.pdf?sp=r&st=2020-02-22T20:07:21Z&se=2020-02-24T20:07:21Z&spr=https&sv=2019-02-02&sr=b&sig=swkbm9NQ%2F09%2BXsAzvEyUF7BPkzR2PVvz%2BKInz%2F0qu%2FA%3D"},
         };
     }
 }
