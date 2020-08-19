@@ -47,6 +47,8 @@ namespace links_app
             {"/go/build19", "https://docs.google.com/presentation/d/1hBgb_e7YjmNO9dgD1efeGfhFUjX2jhq-tmkjqyipJCk/edit?usp=sharing"},
             {"/go/coazure/2019", "https://docs.google.com/presentation/d/1oIg8C_HbwWC06d6DPeYn9Zt3P7b6t-T5XVZClPECtMg/edit?usp=sharing"},
             
+            {"/go/cp20", "https://www.michaelmeadows.com/post/code-palousa-2020"},
+            {"/go/overlords", "https://www.insight.com/en_US/what-we-do/digital-innovation.html"},
             {"/go/here", "https://drive.google.com/open?id=1WS3LgWJVW5jl87MfEwGo8p37WwIX_IA1"},
             {"/go/a8d20", "https://drive.google.com/open?id=1TukAWKZt8VK3qLCO1z50KNIPcmB5_MCy"},
             {"/venmo", "https://venmo.com/code?user_id=2794062025326592415"},
