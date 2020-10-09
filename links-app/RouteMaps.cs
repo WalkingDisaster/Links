@@ -68,8 +68,9 @@ namespace links_app
 
                 // 2018
                 (
-                    "codemash/radac", 2018, $"{HomePageRoot}single-post/2018/01/11/CodeMash-2018-RAdAC-Talk", null,
-                    null, null
+                    "codemash/radac", 2018, $"{HomePageRoot}single-post/2018/01/11/CodeMash-2018-RAdAC-Talk",
+                    $"{GitHubRoot}WalkingDisaster/CodeMash2018-RAdAC/tree/master/Slides",
+                    $"{GitHubRoot}WalkingDisaster/CodeMash2018-RAdAC", null
                 ),
                 (
                     "codemash/socket", 2018, $"{HomePageRoot}single-post/2018/01/12/CodeMash-2018-SocketIO-Talk",
