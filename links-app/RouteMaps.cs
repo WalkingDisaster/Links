@@ -83,7 +83,9 @@ namespace links_app
                     "mtc", 2019, $"{HomePageRoot}single-post/2019/01/30/MTC-Detroit-2019", null, null, null
                 ),
                 (
-                    "coazure/cosmos", 2019, $"{HomePageRoot}single-post/2019/COAzure/CosmosDB", null, null, null
+                    "coazure/cosmos", 2019, $"{HomePageRoot}single-post/2019/COAzure/CosmosDB",
+                    $"{GoogleDrive}presentation/d/1vCzaGZgkSbHs9NflCrOsHoxxGupA09mmybErunCzXFw/edit?usp=sharing",
+                    $"{GitHubRoot}cosmosdb-demo", null
                 ),
                 (
                     "stirtrek", 2019, $"{HomePageRoot}single-post/2019/stir-trek",
@@ -93,9 +95,11 @@ namespace links_app
                 ),
                 (
                     "coazure/dist", 2019,
-                    "https://docs.google.com/presentation/d/1oIg8C_HbwWC06d6DPeYn9Zt3P7b6t-T5XVZClPECtMg/edit?usp=sharing",
+                    $"{GoogleDrive}presentation/d/1oIg8C_HbwWC06d6DPeYn9Zt3P7b6t-T5XVZClPECtMg/edit?usp=sharing",
                     null, null, null
                 ),
+
+                // 2020
                 (
                     "codepalousa", 2020, $"{HomePageRoot}post/code-palousa-2020",
                     "https://drive.google.com/file/d/1feicLdvohFk9-KOcuevFCt49BbLPDZl1/view?usp=sharing",
