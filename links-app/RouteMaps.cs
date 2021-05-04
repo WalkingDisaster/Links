@@ -117,7 +117,8 @@ namespace links_app
             ("/sessions", "https://sessionize.com/walkingdisaster"),
             ("/insight", "https://insight.com"),
             ("/insightdi", "https://www.insight.com/en_US/what-we-do/digital-innovation.html"),
-            ("/venmo", "https://venmo.com/code?user_id=2794062025326592415")
+            ("/venmo", "https://venmo.com/code?user_id=2794062025326592415"),
+            ("/sessions", "https://www.michaelmeadows.com/post/all-my-sessions-are-belong-to-you")
         };
 
         private static readonly IEnumerable<(string nickname, string url)> ProjectLinks = new[]
