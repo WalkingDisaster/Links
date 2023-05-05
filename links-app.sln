@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29814.53
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33513.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "links-app", "links-app\links-app.csproj", "{ADE7466B-6220-4696-BC69-59DB7F714CB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalkingDisaster.Links", "WalkingDisaster.Links\WalkingDisaster.Links.csproj", "{E91B441E-C0B5-4F60-B418-1D17C6991C52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ADE7466B-6220-4696-BC69-59DB7F714CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADE7466B-6220-4696-BC69-59DB7F714CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADE7466B-6220-4696-BC69-59DB7F714CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADE7466B-6220-4696-BC69-59DB7F714CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91B441E-C0B5-4F60-B418-1D17C6991C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91B441E-C0B5-4F60-B418-1D17C6991C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91B441E-C0B5-4F60-B418-1D17C6991C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91B441E-C0B5-4F60-B418-1D17C6991C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
