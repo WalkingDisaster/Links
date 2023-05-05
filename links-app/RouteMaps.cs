@@ -106,6 +106,14 @@ namespace links_app
                     "https://drive.google.com/file/d/1feicLdvohFk9-KOcuevFCt49BbLPDZl1/view?usp=sharing",
                     null,
                     "https://www.youtube.com/watch?v=yjNgV-xj65M"
+                ),
+            
+                // 2023
+                (
+                    "stirtrek", 2023, $"{HomePageRoot}post/stir-trek-2023",
+                    "https://drive.google.com/drive/folders/1w4YbtxQaelRu4QO7bTmjww6-yo-yQr8t?usp=share_link",
+                    null,
+                    null
                 )
             };
 
