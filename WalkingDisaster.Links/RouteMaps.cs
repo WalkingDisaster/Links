@@ -75,7 +75,7 @@ public static class RouteMaps
             "stirtrek", 2023, $"{HomePageRoot}post/stir-trek-2023",
             "https://drive.google.com/drive/folders/1w4YbtxQaelRu4QO7bTmjww6-yo-yQr8t?usp=share_link",
             null,
-            null
+            "https://www.youtube.com/watch?v=Z_-1cRPptDA&t"
         )
     };
 
