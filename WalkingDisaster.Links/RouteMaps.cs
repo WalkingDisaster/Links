@@ -24,6 +24,7 @@ public static class RouteMaps
 
         // Shared Links
         ["/l/baguette"] = new SimpleRoute("/l/baguette", "https://www.youtube.com/watch?v=IRDL3lPQSkc"),
+        ["disneyhack"] = new SimpleRoute("disneyhack", "https://github.com/devanshithakar12/WhatTheHack/tree/066-v2.1/066-OpenAIFundamentals/Coach"),
 
         // GitHub Projects
         ["EDUX"] = new SimpleRoute("/proj/edux", $"{GitHubRoot}edux/tree/stirtrek2017"),
