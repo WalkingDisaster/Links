@@ -79,7 +79,8 @@ public static class RouteMaps
             "https://www.youtube.com/watch?v=Z_-1cRPptDA&t"
         ),
         ["67 N Sunset - Checkin Document"] = new SimpleRoute("/67/arrivals", "https://docs.google.com/document/d/1MebJIo1kQUIe4hmlrIYzmXKDYL3y4BYPsCj1wwJKlZk/edit?usp=sharing"),
-        ["67 N Sunset - Booking Page"] = new SimpleRoute("/67", "https://paradisecamano.us/")
+        ["67 N Sunset - Booking Page"] = new SimpleRoute("/67", "https://paradisecamano.us/"),
+        ["67 N Sunset - Guide Book"] = new SimpleRoute("/67/guide", "https://paradisecamano.touchstay.com/")
     };
 
     public static WebApplication? MapRoutesFromData(this WebApplication? app)
